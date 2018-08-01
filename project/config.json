@@ -1,0 +1,30 @@
+{
+    "DEFAULT": {
+        "DATA_PRIMARY_URL": "http://0.0.0.0:5001/data-primary.txt",
+        "DATA_SECONDARY_URL": "http://0.0.0.0:5001/data-secondary.txt",
+        "DATA_LINK": "https://www.swpc.noaa.gov/products/goes-proton-flux",
+        "MESSAGE_URL": "https://httpbin.org/post",
+        "MESSAGE_RECIPIENTS": ["<EMAIL_RECIPENT_ADDRESS>"],
+        "MESSAGE_SENDER": "<EMAIL_SENDER_ADDRESS>",
+        "SMTP_HOST": "<SMTP_HOST>",
+        "SMTP_PORT": "587",
+        "SMTP_USERNAME": "<SMPT_USERNAME>",
+        "SMTP_PASSWORD": "<SMTP_PASSWORD>",
+        "MONITOR_ENABLED": "1",
+        "MONITOR_TRIGGER_INTERVAL_S": "30"
+    },
+    "DEVELOPMENT": {
+        "DATA_PRIMARY_URL": "http://services.swpc.noaa.gov/text/goes-particle-flux-primary.txt",
+        "DATA_SECONDARY_URL": "http://services.swpc.noaa.gov/text/goes-particle-flux-secondary.txt",
+        "DATA_LINK": "https://www.swpc.noaa.gov/products/goes-proton-flux",
+        "MESSAGE_URL": "https://httpbin.org/post",
+        "MESSAGE_RECIPIENTS": ["<EMAIL_RECIPENT_ADDRESS>"],
+        "MESSAGE_SENDER": "<EMAIL_SENDER_ADDRESS>",
+        "SMTP_HOST": "<SMTP_HOST>",
+        "SMTP_PORT": "587",
+        "SMTP_USERNAME": "<SMPT_USERNAME>",
+        "SMTP_PASSWORD": "<SMTP_PASSWORD>",
+        "MONITOR_ENABLED": "1",
+        "MONITOR_TRIGGER_INTERVAL_S": "30"
+    }
+}
