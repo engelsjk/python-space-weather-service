@@ -1,6 +1,3 @@
-# python-space-weather-service
-A Flask-based web service for monitoring space weather.
-
 # Introduction
 					
 The <strong>Space Weather Service</strong> is a lightweight, deployable service for alerting satellite operators to the potential hazards of high-energy particles in the ionosphere.
